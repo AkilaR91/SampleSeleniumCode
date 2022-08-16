@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Liabilities Lead Flow Update Status Code TO DVP Passed State Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="1"
+           time="0.000">
+  <properties />
+  
+            <testcase name="dVUPassedTest" time="0.0" classname="com.crm.testcases.DVUPassedTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>

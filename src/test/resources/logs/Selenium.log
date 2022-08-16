@@ -1,0 +1,238 @@
+13:34:57,090 DEBUG devpinoyLogger:61 - Config file loaded !!!
+13:34:57,090 DEBUG devpinoyLogger:76 - OR file loaded !!!
+13:34:57,090 DEBUG ResolutionCache:187 - Resolution chrome=104 in cache (valid until 14:34:05 05/08/2022 IST)
+13:34:57,090 DEBUG ResolutionCache:187 - Resolution chrome104=104.0.5112.79 in cache (valid until 15:33:52 05/08/2022 IST)
+13:34:57,090  INFO WebDriverManager:632 - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+13:34:57,105 DEBUG WebDriverManager:588 - Driver chromedriver 104.0.5112.79 found in cache
+13:34:57,105  INFO WebDriverManager:689 - Exporting webdriver.chrome.driver as C:\Users\akila\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+13:34:57,811 DEBUG devpinoyLogger:104 - Chrome Launched !!!
+13:34:58,616 DEBUG devpinoyLogger:114 - Navigated to : https://hdfcnew.crmnext.com/sng7_sacommon/app/login/login
+13:34:58,834  INFO devpinoyLogger:96 - Sent value as: A17837    In field: Username_XPATH
+13:34:58,890  INFO devpinoyLogger:96 - Sent value as: acid_qa    In field: Password_XPATH
+13:35:05,060  INFO devpinoyLogger:71 -   Clicked Successfully On_  Login_XPATH
+13:35:05,333  INFO devpinoyLogger:38 - Navigated Successfully To_  LeadObject_URL
+13:35:45,506 ERROR devpinoyLogger:108 -  _ DOCCOLLECTEDTEST _ : Get Failed
+no such element: Unable to locate element: {"method":"xpath","selector":".//a[@data-autoid='gridHF_View0']"}
+  (Session info: chrome=104.0.5112.80)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKILA', ip: '192.168.1.51', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.3'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.80, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\akila\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49822}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0dd292f15dafffb62ebd371cf2d5dc9a
+*** Element info: {Using=xpath, value=.//a[@data-autoid='gridHF_View0']}
+13:35:47,369 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en_IN.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa_en.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/spark.spa.ftl"): Found
+13:35:47,397 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/spark.spa.ftl hasn't changed.
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en_IN.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables_en.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-variables.ftl"): Found
+13:35:47,397 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-variables.ftl hasn't changed.
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en_IN.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros_en.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-macros.ftl"): Found
+13:35:47,397 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-macros.ftl hasn't changed.
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en_IN.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes_en.ftl"): Not found
+13:35:47,397 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attributes.ftl"): Found
+13:35:47,413 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attributes.ftl hasn't changed.
+13:35:47,413 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/log.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/log.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/recurse_nodes.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/recurse_nodes.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/macros/attr-common.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/macros/attr-common.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/head.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/head.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-css.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-css.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/navbar.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/navbar.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/sidenav.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/sidenav.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/dashboard.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/dashboard.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en_IN.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test_en.ftl"): Not found
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/test.ftl"): Found
+13:35:47,415 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/test.ftl hasn't changed.
+13:35:47,415 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en_IN.ftl"): Not found
+13:35:47,431 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content_en.ftl"): Not found
+13:35:47,432 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/standard-content.ftl"): Found
+13:35:47,432 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/standard-content.ftl hasn't changed.
+13:35:47,434 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,439 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en_IN.ftl"): Not found
+13:35:47,439 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts_en.ftl"): Not found
+13:35:47,439 DEBUG cache:45 - TemplateLoader.findTemplateSource("spark/partials/scripts.ftl"): Found
+13:35:47,439 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/spark/partials/scripts.ftl hasn't changed.
+13:35:47,439 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en_IN.ftl"): Not found
+13:35:47,439 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js_en.ftl"): Not found
+13:35:47,439 DEBUG cache:45 - TemplateLoader.findTemplateSource("commons/commons-inject-js.ftl"): Found
+13:35:47,439 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed): using cached since jar:file:/C:/Users/akila/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar!/com/aventstack/extentreports/templates/commons/commons-inject-js.ftl hasn't changed.
+13:35:47,449  INFO devpinoyLogger:69 - Test Case_  RECEIVEDATBRANCHTEST _Successfully Started
+13:35:47,449  INFO devpinoyLogger:153 - Test Case_  RECEIVEDATBRANCHTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,449 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,468 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,473 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,486  INFO devpinoyLogger:69 - Test Case_  BRANCHAPPROVEDTEST _Successfully Started
+13:35:47,486  INFO devpinoyLogger:153 - Test Case_  BRANCHAPPROVEDTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,486 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,508 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,508 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,509  INFO devpinoyLogger:69 - Test Case_  DISPATCHEDTOCPUTEST _Successfully Started
+13:35:47,509  INFO devpinoyLogger:153 - Test Case_  DISPATCHEDTOCPUTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,509 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,539 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,539 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,549 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,551 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,551 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,551 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,551 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,561  INFO devpinoyLogger:69 - Test Case_  RECEIVEDATCPUTEST _Successfully Started
+13:35:47,564  INFO devpinoyLogger:153 - Test Case_  RECEIVEDATCPUTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,565 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,586 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,586 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,600  INFO devpinoyLogger:69 - Test Case_  DVUPASSEDTEST _Successfully Started
+13:35:47,600  INFO devpinoyLogger:153 - Test Case_  DVUPASSEDTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,600 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,622 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,622 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,633  INFO devpinoyLogger:69 - Test Case_  ACCEPTEDBPOTEST _Successfully Started
+13:35:47,633  INFO devpinoyLogger:153 - Test Case_  ACCEPTEDBPOTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,635 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,651 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,656 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,671  INFO devpinoyLogger:69 - Test Case_  ACCOUNTOPENEDTEST _Successfully Started
+13:35:47,673  INFO devpinoyLogger:153 - Test Case_  ACCOUNTOPENEDTEST _Is Skipped As In Runmode it's 'N' 
+13:35:47,673 DEBUG devpinoyLogger:129 - test execution completed !!!
+13:35:47,691 DEBUG cache:45 - "spark/spark.spa.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "commons/commons-variables.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "commons/commons-macros.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/macros/attributes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/macros/recurse_nodes.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/macros/log.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/macros/attr-common.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/head.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "commons/commons-inject-css.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/navbar.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/sidenav.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/dashboard.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/test.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/standard-content.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "spark/partials/scripts.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,691 DEBUG cache:45 - "commons/commons-inject-js.ftl"("en_IN", UTF-8, parsed) cached copy not yet stale; using cached.
+13:35:47,749 DEBUG devpinoyLogger:110 - Config file loaded !!!

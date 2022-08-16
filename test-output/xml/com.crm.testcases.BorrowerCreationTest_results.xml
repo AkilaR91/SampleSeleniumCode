@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Borrower Creation Test"
+           tests="1"
+           failures="0"
+           errors="0"
+<<<<<<< HEAD
+           skipped="1"
+           time="0.014">
+=======
+           skipped="0"
+           time="104.215">
+>>>>>>> 1b76775ac50093cf5e50339ec12252ea7cf434e3
+  <properties />
+  
+  
+            <testcase name="borrowerCreationTest" time="104.215" classname="com.crm.testcases.BorrowerCreationTest" />
+      
+</testsuite>

@@ -1,0 +1,116 @@
+<html>
+<head>
+<title>TestNG:  Large Manufacturing Rating Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Large Manufacturing Rating Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/1</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Jun 09 10:40:22 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (5 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.testcases.LargeManufacturingRatingTest.largeManufacturingRatingTest()'><b>largeManufacturingRatingTest</b><br>Test class: com.crm.testcases.LargeManufacturingRatingTest<br>Parameters: {Distribution_network=Captive Business, Track_Record=Management not very familiar with the operating environment to make high quality decisions., Composition_of_Management=Professionally qualified management team engaged with limited promoter involvement, Password=acid_qa, Unsecured_loans=Yes, Management_style=Yes, Supply Chain Management=Medium- The business has itself invested moderately or has moderate access to backward and/or forward integration by virtue of its group companies / long term supplier relationships and is not restricted to a few geographical locations, Brand_Equity=The company's products/services have a national level brand recall, Rating_Id=33256620181, Username=R6106, existence_mgt=10, Status Code=Compute Rating, Legal_Structure=Sole Proprietorship or Trust, Rating=Rating, No_years_company_Existence=10, Customer_Diversification=The companys business caters to consumers or retailers , hence no or low customer concentration, Projected_EBIDTA=520, TC No =TC15, Is_Foreign_Exchange_risk=Yes, Projected_TOL_TNW=550, LL_EBID=75, Projected_Revenue=500, Borrower ID=00332566, Abilitytoraisefunds=Significantly Low- Default in last 2 years or any related companies in Default or restructured Account, Corporate_governance=No, Unsecured_loans_subordinated1=500, Supply_chain_management=Weak- The business has limited/no integrations and is highly dependent on other businesses for the same, Position_in_the_industry=Insignificant & small and likely unstable position – small player in a market dominated by larger players (consolidation), Projection_Applicable=Applicable, Reason_for_Alt_Model=Model change is required, Composition Of Management=Professionally qualified CEO/ Senior Management with other key positions controlled by the promoter, Login role=RM1, Product_Diversification=Presence in majority  of the product segments in the industry}</td>
+<td><div><pre>org.testng.SkipException: Skipping the test LARGEMANUFACTURINGRATINGTESTas the Run mode is NO
+	at com.crm.testcases.LargeManufacturingRatingTest.largeManufacturingRatingTest(LargeManufacturingRatingTest.java:20)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1682774881", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1682774881'><pre>org.testng.SkipException: Skipping the test LARGEMANUFACTURINGRATINGTESTas the Run mode is NO
+	at com.crm.testcases.LargeManufacturingRatingTest.largeManufacturingRatingTest(LargeManufacturingRatingTest.java:20)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.crm.testcases.LargeManufacturingRatingTest@43c67247</td></tr>
+</table><p>
+</body>
+</html>

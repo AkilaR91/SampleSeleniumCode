@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Data Driven Basics">
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.crm.listeners.CustomListeners" />
+	</listeners>
+
+
+	<test name="SS Borrower Creation Test">
+		<classes>
+			<class name="com.crm.testcases.SSBorrowerCreationTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Lead Creation Test">
+		<classes>
+			<class name="com.crm.testcases.LiabilityFlow_CreateLeadTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Appointment Fix State Test">
+		<classes>
+			<class name="com.crm.testcases.AppointmentFixTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Doc Collected State Test">
+		<classes>
+			<class name="com.crm.testcases.DocCollectedTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Received At Branch State Test">
+		<classes>
+			<class name="com.crm.testcases.ReceivedAtBranchTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Branch Approved State Test">
+		<classes>
+			<class name="com.crm.testcases.BranchApprovedTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Dispatched To CPU State Test">
+		<classes>
+			<class name="com.crm.testcases.DispatchedToCPUTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Received At CPU State Test">
+		<classes>
+			<class name="com.crm.testcases.ReceivedAtCPUTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO DVP Passed State Test">
+		<classes>
+			<class name="com.crm.testcases.DVUPassedTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Accepted BPO State Test">
+		<classes>
+			<class name="com.crm.testcases.AcceptedBPOTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	<test name="Liabilities Lead Flow Update Status Code TO Account Opened State Test">
+		<classes>
+			<class name="com.crm.testcases.AccountOpenedTest"/>
+		</classes>
+	</test> <!-- Test -->
+	
+	
+
+</suite> <!-- Suite -->

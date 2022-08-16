@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Data Driven Basics]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.crm.listeners.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="SS Borrower Creation Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.SSBorrowerCreationTest">
+        <methods>
+          <include name="ssborrowerCreationTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.SSBorrowerCreationTest -->
+    </classes>
+  </test> <!-- SS Borrower Creation Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Lead Creation Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.LiabilityFlow_CreateLeadTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="liabilityFlow_CreateLeadTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.crm.testcases.LiabilityFlow_CreateLeadTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Lead Creation Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Appointment Fix State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.AppointmentFixTest">
+        <methods>
+          <include name="appointmentFixTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.AppointmentFixTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Appointment Fix State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Doc Collected State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.DocCollectedTest">
+        <methods>
+          <include name="docCollectedTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.DocCollectedTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Doc Collected State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Received At Branch State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.ReceivedAtBranchTest">
+        <methods>
+          <include name="receivedAtBranchTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.ReceivedAtBranchTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Received At Branch State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Branch Approved State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.BranchApprovedTest">
+        <methods>
+          <include name="branchApprovedTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.BranchApprovedTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Branch Approved State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Dispatched To CPU State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.DispatchedToCPUTest">
+        <methods>
+          <include name="dispatchedToCPUTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.DispatchedToCPUTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Dispatched To CPU State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Received At CPU State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.ReceivedAtCPUTest">
+        <methods>
+          <include name="receivedAtCPUTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.ReceivedAtCPUTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Received At CPU State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO DVP Passed State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.DVUPassedTest">
+        <methods>
+          <include name="dVUPassedTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.DVUPassedTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO DVP Passed State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Accepted BPO State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.AcceptedBPOTest">
+        <methods>
+          <include name="acceptedBPOTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.AcceptedBPOTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Accepted BPO State Test(failed) -->
+  <test thread-count="5" name="Liabilities Lead Flow Update Status Code TO Account Opened State Test(failed)">
+    <classes>
+      <class name="com.crm.testcases.AccountOpenedTest">
+        <methods>
+          <include name="accountOpenedTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.testcases.AccountOpenedTest -->
+    </classes>
+  </test> <!-- Liabilities Lead Flow Update Status Code TO Account Opened State Test(failed) -->
+</suite> <!-- Failed suite [Data Driven Basics] -->

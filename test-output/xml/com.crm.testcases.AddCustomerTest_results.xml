@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Add Customer Test"
+           tests="8"
+           failures="1"
+           errors="0"
+           skipped="7"
+<<<<<<< HEAD
+           time="-4960131280.204">
+=======
+           time="-4959133345.079">
+>>>>>>> 8028eddb3d88cda6a802980a8435dbeca5f61c66
+  <properties />
+            <testcase name="tearDown" time="0.001" classname="com.crm.testcases.AddCustomerTest">
+                <failure type="java.lang.NullPointerException"
+                  message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;com.crm.base.TestBase.driver&quot; is null"
+              >
+<![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "com.crm.base.TestBase.driver" is null
+<<<<<<< HEAD
+  com.crm.base.TestBase.tearDown(TestBase.java:142)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+  java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.base/java.lang.reflect.Method.invoke(Method.java:568)
+=======
+  com.crm.base.TestBase.tearDown(TestBase.java:140)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+  java.base/java.lang.reflect.Method.invoke(Method.java:577)
+>>>>>>> 8028eddb3d88cda6a802980a8435dbeca5f61c66
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+  org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+  org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+  org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+  org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+  org.testng.TestRunner.privateRun(TestRunner.java:794)
+  org.testng.TestRunner.run(TestRunner.java:596)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+  org.testng.SuiteRunner.run(SuiteRunner.java:276)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+  org.testng.TestNG.runSuites(TestNG.java:1063)
+  org.testng.TestNG.run(TestNG.java:1031)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="tearDown" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="addCustomerTest" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="addCustomerTest" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="addCustomerTest" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+            <testcase name="addCustomerTest" time="0.0" classname="com.crm.testcases.AddCustomerTest">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
